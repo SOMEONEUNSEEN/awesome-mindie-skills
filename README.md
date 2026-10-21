@@ -63,14 +63,15 @@
 
 <!-- CATALOG:START -->
 
-53 个技能 · 10 个分类
+54 个技能 · 10 个分类
 
-定义已审阅：53 · 已有运行复现记录：0。具体范围见各条目记录。
+定义已审阅：54 · 已有运行复现记录：0。具体范围见各条目记录。
 
 | 来源项目 | 已收录 | 维护者 | 许可证 |
 |---|---|---|---|
 | [vllm-ascend-skills](https://github.com/pisceskkk/vllm-ascend-skills) | 17 | pisceskkk | MIT |
 | [cannbot-skills](https://gitcode.com/cann/cannbot-skills) | 36 | CANNBot SIG (cann) | CANN Open Software License v2.0 |
+| [upstream-downstream-analysis](https://github.com/SOMEONEUNSEEN/awesome-mindie-skills) | 1 | SOMEONEUNSEEN | CC0-1.0 |
 
 - [环境与依赖](#environment)
 - [模型接入与转换](#model-integration)
@@ -254,6 +255,8 @@
 
 将变更映射到构建、正确性和性能验证，记录覆盖范围。
 
+- [analyze-upstream-downstream](https://github.com/SOMEONEUNSEEN/awesome-mindie-skills/blob/614d7c22c05f147d96e09044aa1b8e62cc9ec89e/skills/analyze-upstream-downstream/SKILL.md) — 追踪上游框架与下游适配的实际调用和替换边界，区分继承能力、已同步项与迁移缺口，输出脱敏证据和最小迁移计划。
+  `Framework plugins` `Platform adaptations` `主机工具` `流程编排` · [条目](catalog/skills/analyze-upstream-downstream.yaml)
 - [ascendc-code-review](https://gitcode.com/cann/cannbot-skills/blob/393564ae43f304426db2c206e361cd43b2811413/ops/ascendc-code-review/SKILL.md) — 按文件、PR 或定向问题路由 Ascend C 代码检视，检查规范与设计一致性。
   `CANNBot` `Ascend C` `主机工具` · [条目](catalog/skills/ascendc-code-review.yaml)
 - [vllm-ascend-change-validation](https://github.com/pisceskkk/vllm-ascend-skills/blob/4e7417c3d88847a17ba6d61d6a9b748ad8e0bbc3/skills/vllm-ascend-change-validation/SKILL.md) — 根据 baseline/candidate 差异确定构建、正确性与性能检查，报告通过项及覆盖缺口。

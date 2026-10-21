@@ -10,3 +10,8 @@ sources:
     revision: 393564ae43f304426db2c206e361cd43b2811413
     license: CANN Open Software License v2.0
     maintainer: CANNBot SIG (cann)
+  upstream-downstream-analysis:
+    repository: https://github.com/SOMEONEUNSEEN/awesome-mindie-skills
+    revision: 614d7c22c05f147d96e09044aa1b8e62cc9ec89e
+    license: CC0-1.0
+    maintainer: SOMEONEUNSEEN

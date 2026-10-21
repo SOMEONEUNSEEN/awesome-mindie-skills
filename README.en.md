@@ -63,14 +63,15 @@ Each entry's metadata links to its review scope, reproduction cases, and evidenc
 
 <!-- CATALOG:START -->
 
-53 skills · 10 categories
+54 skills · 10 categories
 
-Definitions reviewed: 53 · Entries with execution reproductions: 0. See each entry's metadata for scope.
+Definitions reviewed: 54 · Entries with execution reproductions: 0. See each entry's metadata for scope.
 
 | Upstream Source | Listed | Maintainer | License |
 |---|---|---|---|
 | [vllm-ascend-skills](https://github.com/pisceskkk/vllm-ascend-skills) | 17 | pisceskkk | MIT |
 | [cannbot-skills](https://gitcode.com/cann/cannbot-skills) | 36 | CANNBot SIG (cann) | CANN Open Software License v2.0 |
+| [upstream-downstream-analysis](https://github.com/SOMEONEUNSEEN/awesome-mindie-skills) | 1 | SOMEONEUNSEEN | CC0-1.0 |
 
 - [Environment and dependencies](#environment)
 - [Model integration and conversion](#model-integration)
@@ -254,6 +255,8 @@ Reduce startup, communication, graph, and operator failures and verify fixes.
 
 Map changes to build, correctness, and performance checks and record coverage.
 
+- [analyze-upstream-downstream](https://github.com/SOMEONEUNSEEN/awesome-mindie-skills/blob/614d7c22c05f147d96e09044aa1b8e62cc9ec89e/skills/analyze-upstream-downstream/SKILL.md) — Trace actual calls and replacement boundaries between an upstream framework and its downstream adaptation, distinguish inherited behavior, synchronized changes and migration gaps, and produce sanitized evidence with a minimal migration plan.
+  `Framework plugins` `Platform adaptations` `Host tools` `Workflow` · [Metadata](catalog/skills/analyze-upstream-downstream.yaml)
 - [ascendc-code-review](https://gitcode.com/cann/cannbot-skills/blob/393564ae43f304426db2c206e361cd43b2811413/ops/ascendc-code-review/SKILL.md) — Route Ascend C reviews by file, PR, or targeted question to check coding rules and design consistency.
   `CANNBot` `Ascend C` `Host tools` · [Metadata](catalog/skills/ascendc-code-review.yaml)
 - [vllm-ascend-change-validation](https://github.com/pisceskkk/vllm-ascend-skills/blob/4e7417c3d88847a17ba6d61d6a9b748ad8e0bbc3/skills/vllm-ascend-change-validation/SKILL.md) — Map a vLLM or vllm-ascend diff to sufficient correctness, build and performance evidence and summarize coverage.
